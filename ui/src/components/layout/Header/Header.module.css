@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+  border-bottom: 1px solid var(--color-border-primary);
+  padding: var(--space-3) var(--space-10);
+}
+
+.logoLink {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  color: var(--color-text-primary);
+  text-decoration: none;
+}
+
+.logoIcon {
+  width: var(--space-4);
+  height: var(--space-4);
+}
+
+.logoTitle {
+  color: var(--color-text-primary);
+  font-size: var(--text-lg);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+.navContainer {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  gap: var(--space-6);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--space-4) * 2.25);
+}
+
+.navLink {
+  color: var(--color-text-primary);
+  font-size: var(--text-sm);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-normal);
+  text-decoration: none;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}

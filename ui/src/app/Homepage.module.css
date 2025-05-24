@@ -1,0 +1,24 @@
+.pageTitle {
+  color: var(--color-text-primary);
+  letter-spacing: var(--letter-spacing-tight);
+  font-size: var(--text-display-s);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  padding-left: var(--space-4);
+  padding-right: var(--space-4);
+  text-align: center;
+  padding-bottom: var(--space-3);
+  padding-top: var(--space-5);
+}
+
+.pageSubtitle {
+  color: var(--color-text-primary);
+  font-size: var(--text-base);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-normal);
+  padding-bottom: var(--space-3);
+  padding-top: var(--space-1);
+  padding-left: var(--space-4);
+  padding-right: var(--space-4);
+  text-align: center;
+}

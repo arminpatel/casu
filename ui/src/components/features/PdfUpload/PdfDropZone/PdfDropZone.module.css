@@ -1,0 +1,89 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-4);
+}
+
+.dropzone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-6);
+  border-radius: var(--border-radius-lg);
+  border: 2px dashed var(--color-border-accent);
+  padding: var(--space-14) var(--space-6);
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.dropzoneActive {
+  border-color: #3b82f6;
+  background-color: #eff6ff;
+}
+
+.dropzoneText {
+  color: var(--color-text-primary);
+  font-size: var(--text-lg);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-tight);
+  max-width: 480px;
+  text-align: center;
+}
+
+.browseButton {
+  display: flex;
+  min-width: 84px;
+  max-width: 480px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: var(--border-radius-lg);
+  height: 40px;
+  padding-left: var(--space-4);
+  padding-right: var(--space-4);
+  background-color: var(--color-border-primary);
+  color: var(--color-button-text);
+  font-size: var(--text-sm);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-normal);
+  letter-spacing: 0.015em;
+  border: none;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.browseButton:hover {
+  opacity: 0.9;
+}
+
+.buttonText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fileInput {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.statusMessage {
+  margin-top: var(--space-4);
+  text-align: center;
+  color: green;
+  font-size: var(--text-sm);
+}
+
+.errorMessage {
+  margin-top: var(--space-4);
+  text-align: center;
+  color: red;
+  font-size: var(--text-sm);
+}
