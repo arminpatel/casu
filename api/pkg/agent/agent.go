@@ -1,9 +1,15 @@
 package agent
 
-func httpHandler() error {
+type Agent struct {
+}
+
+func New() *Agent {
+	return &Agent{}
+}
+func (a *Agent) httpHandler() error {
 	return nil
 }
 
-func UploadWithPrompt() error {
+func (a *Agent) UploadWithPrompt() error {
 	return nil
 }
